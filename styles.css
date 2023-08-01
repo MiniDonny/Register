@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color_1: #CB3F4F;
+    --color_2: #E76867;
+    --color_3: #FFF4E8;
+    --color_4: #222C3B;
+    --color_5: #363E49;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    font-family: 'Tenor Sans', sans-serif;
+    background: var(--color_3);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    gap: 32px;
+    background-color: var(--color_2);
+    color: var(--color_5);
+    border-radius: 20px;
+}
+fieldset{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
