@@ -17,19 +17,29 @@ body{
     align-items: center;
     padding: 64px;
     font-family: 'Tenor Sans', sans-serif;
-    background: var(--color_3);
+    background-image: linear-gradient(#E76867,#CB3F4F);
 }
 form{
     display: flex;
     flex-direction: column;
     padding: 64px;
     gap: 32px;
-    background-color: var(--color_2);
-    color: var(--color_5);
+    background-color: var(--color_5);
+    color: var(--color_3);
     border-radius: 20px;
 }
 fieldset{
     padding: 16px;
     display: flex;
     flex-direction: column;
+}
+button{
+    background: var(--color_2);
+    padding: 16px;
+    border: none;
+    border-radius: 260px;
+}
+fieldset label{
+    display: flex;
+    gap: 16px;
 }

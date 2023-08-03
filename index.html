@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./styles.css">
     <title>Register</title>
 </head>
 <body>
-    <form>
+    <form class="animate__animated animate__backInLeft">
         <h1>Register To School</h1>
         <label>
             <p>Name Complete </p>
@@ -27,9 +28,9 @@
         </label>
         <fieldset>
             <legend>Courses</legend>
-            <label>
-                <p>Programming web</p>
+            <label class="label-Programming-web">
                 <input type="checkbox">
+                <p>Programming web</p>
                 <select>
                     <option>Java Scrip</option>
                     <option>Html</option>
@@ -37,28 +38,28 @@
                 </select>
             </label>
             <label>
+                <input type="checkbox">
                 <p>Video games</p>
-                <input type="checkbox">
             </label>
             <label>
+                <input type="checkbox">
                 <p>Desing</p>
-                <input type="checkbox">
             </label>
             <label>
+                <input type="checkbox">
                 <p>Music</p>
-                <input type="checkbox">
             </label>
             <label>
+                <input type="checkbox">
                 <p>Streamer</p>
-                <input type="checkbox">
             </label>
             <label>
+                <input type="checkbox">
                 <p>Sciences</p>
-                <input type="checkbox">
             </label>
             <label>
-                <p>Electronic</p>
                 <input type="checkbox">
+                <p>Electronic</p>
             </label>
         </fieldset>
         <label>
@@ -77,6 +78,7 @@
                 <option>Rivadavia</option>
             </select>
         </label>
+        <button>ENVIAR</button>
     </form>
 </body>
 <script src="./script.js"></script>
